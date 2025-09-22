@@ -1,0 +1,148 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: var(--main-white);
+}
+
+header{
+  background: var(--main-red);
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-link, header a{
+  text-decoration: none;
+  color: white; 
+}
+
+.nav-link{
+  margin: 0 12px;
+}
+
+.nav-link:hover{
+  font-weight: bold;
+  color: yellow;
+}
+
+#welcome-section{
+  display: flex;
+  flex-direction: column;   
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+#welcome-section p{
+  color: var(--main-red);
+}
+
+#projects{
+  background-color: var(--main-blue);
+  color: white;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.project{
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+  width: 400px;
+  
+}
+
+.project:hover{
+  transform: scale(1.01);
+  transition: transform 300ms ease-in-out 0s;
+}
+
+.project-image{
+  max-width: 95%;
+  border-radius: 8px;
+  max-height: 200px;
+}
+
+.btn{
+  height: 35px;
+  width: auto;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--main-red);
+  font-size: 1.2rem;
+  margin: 2px;
+}
+
+.btn:hover{
+  font-weight: bold;
+  background-color: #ee3144
+}
+
+#contact{
+  background-color: var(--main-gray);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+#contact div a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 5px;
+}
+
+#contact div a:hover{
+  font-weight: bold;
+  color: yellow;
+  font-size: 1.6rem;
+}
+
+#hr{
+  color: white;
+  background-color: white;
+  width: 90%;
+}
+
+footer a{
+  text-decoration: none;
+  color: grey;
+}
+
+footer{
+  background-color: var(--main-gray);
+  color: grey;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 600px){
+  .project{
+    width: 90%;
+  }
+}
