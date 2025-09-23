@@ -3,7 +3,7 @@
 A modern, responsive portfolio website to showcase the projects and skills of ISSAM SENSI. This site highlights web, mobile, and creative coding projects, and provides easy ways to connect and collaborate.
 
 ## 🌐 Live Demo
-[View Demo](https://issamsensi.github.io/mobapps/portfolio-v1/)
+[View Demo](https://issamsensi.github.io/portfolio-v1/)
 
 ## 📸 Screenshots
 ![Portfolio Home](screens/portfolio.png)
