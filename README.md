@@ -42,7 +42,7 @@ portfolio-v1/
 - [Facebook](https://facebook.com/issamsensi)
 - [Instagram](https://instagram.com/issamsensi)
 - [TikTok](https://www.tiktok.com/@issamsensi)
-- [LinkedIn](https://www.linkedin.com/in/issam-amghar-406b3a228)
+- [LinkedIn](https://www.linkedin.com/in/issam-amghar)
 - [GitHub](https://github.com/issamsensi)
 - [WhatsApp](https://wa.me/+212658987985)
 - [YouTube](https://youtube.com/@issamsensi?si=4ZpR37-s4ifInfwj)
